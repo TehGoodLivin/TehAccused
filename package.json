@@ -1,0 +1,21 @@
+{
+  "name": "tehaccused",
+  "version": "1.0.0",
+  "description": "This bot enhances transparency in decision-making while maintaining order within the community. Server members participate in these votes, creating a democratic approach to moderating the server, ensuring fairness and community engagement.",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "keywords": [
+    "moderation",
+    "kick",
+    "ban",
+    "timeout"
+  ],
+  "author": "TheRealGoodLivin",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.16.1",
+    "dotenv": "^16.4.5"
+  }
+}
