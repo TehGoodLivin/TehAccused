@@ -27,4 +27,12 @@ This bot enhances transparency in decision-making while maintaining order within
 > - Author: Austin Livengood
 
 # Notes
- > - Written in Javascript with libraries discord.js, and dotenv.
+> Written in Javascript with libraries discord.js, and dotenv.
+
+# Commands
+> /accuse
+> - Useage: /accuse target:<user> reason:<string> duration:<integer>
+> - Parameters:
+> - - target: The member to be accused and voted on.
+>   - reason: The reason for the accusation.
+>   - duration: The duration of the vote in minutes.
