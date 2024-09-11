@@ -30,9 +30,27 @@ This bot enhances transparency in decision-making while maintaining order within
 > Written in Javascript with libraries discord.js, and dotenv.
 
 # Commands
-> /accuse
+/accuse
 > - Useage: /accuse target:<user> reason:<string> duration:<integer>
 > - Parameters:
-> - - target: The member to be accused and voted on.
+>   - target: The member to be accused and voted on.
 >   - reason: The reason for the accusation.
 >   - duration: The duration of the vote in minutes.
+> - Permissions: This command can only be executed by admins or users with a specific role.
+> - Description: Starts a vote on a specified member, restricting them from sending messages and joining voice channels during the voting period.
+
+> /stopaccuse
+> - Useage: /stopaccuse target:<user>
+> - Parameters:
+>   - target: The member whose vote you want to stop.
+> - Permissions: This command can only be executed by admins or users with a specific role.
+> - Description: Stops an active vote for a specified member and removes their timeout.
+
+> /settings
+> - Sub Commands:
+>   - /settings setchannel
+>       - Parameters:
+>          - role: The role that can use bot commands (leave blank for none).
+>          - none: Type "none" to clear the current mod role.
+> - Permissions: This command can only be executed by admins.
+> - Description: Configure various bot settings such as the channel for messages, the role required to use commands, and the channel for vote logs.
