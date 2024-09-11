@@ -26,6 +26,10 @@ This bot enhances transparency in decision-making while maintaining order within
 > Written with Visual Studio Code (https://code.visualstudio.com/) 
 > - Author: Austin Livengood
 
+# How To
+> Setting up Discord Bot on Dev Portal: https://www.ionos.com/digitalguide/server/know-how/creating-discord-bot/
+> Host: https://pylexnodes.net/ (Free & Premium)
+
 # Notes
 > Written in Javascript with libraries discord.js, and dotenv.
 
