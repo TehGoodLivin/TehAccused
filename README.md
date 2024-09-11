@@ -20,10 +20,10 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-[![screenshot](https://repository-images.githubusercontent.com/855545085/dce40fc5-af25-49cc-a9d9-9f8feaeec202)
-
 # Teh-Accused
 This bot enhances transparency in decision-making while maintaining order within the community. Server members participate in these votes, creating a democratic approach to moderating the server, ensuring fairness and community engagement.
+
+![screenshot](https://repository-images.githubusercontent.com/855545085/dce40fc5-af25-49cc-a9d9-9f8feaeec202)
 
 > Written with Visual Studio Code (https://code.visualstudio.com/) 
 > - Author: Austin Livengood
