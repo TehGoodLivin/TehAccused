@@ -31,26 +31,43 @@ This bot enhances transparency in decision-making while maintaining order within
 
 # Commands
 /accuse
-> - Useage: /accuse target:<user> reason:<string> duration:<integer>
+> - Useage: /accuse target:<user> reason:<string> duration:<integer> (minutes)
+> - Description: Starts a vote on a specified member, restricting them from sending messages and joining voice channels during the voting period.
 > - Parameters:
 >   - target: The member to be accused and voted on.
 >   - reason: The reason for the accusation.
 >   - duration: The duration of the vote in minutes.
 > - Permissions: This command can only be executed by admins or users with a specific role.
-> - Description: Starts a vote on a specified member, restricting them from sending messages and joining voice channels during the voting period.
 
-> /stopaccuse
+/stopaccuse
 > - Useage: /stopaccuse target:<user>
+> - Description: Stops an active vote for a specified member and removes their timeout.
 > - Parameters:
 >   - target: The member whose vote you want to stop.
 > - Permissions: This command can only be executed by admins or users with a specific role.
-> - Description: Stops an active vote for a specified member and removes their timeout.
 
-> /settings
+/settings
 > - Sub Commands:
 >   - /settings setchannel
+>       - Description: Sets or clears the channel where general bot messages will be posted.
+>       - Parameters:
+>          - channel: The channel to send bot messages to (leave blank for none).
+>          - none: Type "none" to clear the current channel.
+>   - /settings setmodrole
+>       - Description: Sets or clears the role required to execute bot commands.
 >       - Parameters:
 >          - role: The role that can use bot commands (leave blank for none).
 >          - none: Type "none" to clear the current mod role.
+>   - /settings setvotechannel
+>       - Description: Sets or clears the channel where vote logs will be posted.
+>       - Parameters:
+>          - channel: The channel to post vote logs (leave blank for none).
+>          - none: Type "none" to clear the current vote log channel.
+>   - /settings viewconfig
+>       - Description: Displays the current settings (channels and mod role).
 > - Permissions: This command can only be executed by admins.
 > - Description: Configure various bot settings such as the channel for messages, the role required to use commands, and the channel for vote logs.
+
+/ping
+> - Useage: /ping
+> - Description: Checks the bot’s response time.
