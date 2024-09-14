@@ -1,6 +1,6 @@
 {
   "name": "tehaccused",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This bot enhances transparency in decision-making while maintaining order within the community. Server members participate in these votes, creating a democratic approach to moderating the server, ensuring fairness and community engagement.",
   "main": "bot.js",
   "scripts": {
