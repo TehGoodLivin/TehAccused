@@ -74,6 +74,13 @@ This bot enhances transparency in decision-making while maintaining order within
 > - Permissions: This command can only be executed by admins.
 > - Description: Configure various bot settings such as the channel for messages, the role required to use commands, and the channel for vote logs.
 
+/knockout
+> - Useage: /knockout target:<user>
+> - Description: This command allows admins or designated moderators to "knock out" a member for 24 hours by applying a timeout.
+> - Parameters:
+>   - target: The member who you want to knock out with a brick
+> - Permissions: This command can only be executed by admins or users with a specific role.
+
 /ping
 > - Useage: /ping
 > - Description: Checks the bot’s response time.
